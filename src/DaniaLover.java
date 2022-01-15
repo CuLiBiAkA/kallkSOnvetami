@@ -69,7 +69,8 @@ private static int roll1=1;
 
     public static void massivskaiaEblia(String[] massiv) {
 
-        razborMassiva = razborMassiva+" это "+String.valueOf(roll1)+" результат " + Arrays.toString(massiv);
+        razborMassiva = razborMassiva+" это "+String.valueOf(roll1)+" результат  " + Arrays.toString(massiv);
+        System.out.println("ветка");
 
     }
 }
